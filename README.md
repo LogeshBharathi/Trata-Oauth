@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Sample Web App Authentication Flows
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project demonstrates the implementation of authentication flows for a sample web application using **Next.js** and **Supabase** as the backend authentication provider. The web app includes the following features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Sign-Up Page**: 
+   - Users can sign up using email and password.
+   - Users can sign up using Google OAuth.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Login Page**: 
+   - Existing users can log in with their credentials.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Forgot Password Page**: 
+   - Users can reset their passwords.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Technologies Used
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
+- **Backend**: Supabase for authentication
 
-## Learn More
+## Current Status
 
-To learn more about Next.js, take a look at the following resources:
+I have successfully implemented the authentication functionalities as specified in the requirements, including the following:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- User sign-up and login using both email/password and Google OAuth.
+- Password reset functionality.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Challenges Faced
 
-## Deploy on Vercel
+As a newcomer to Tailwind CSS and Supabase, I encountered some challenges that extended the development time, particularly in styling the components and integrating them with Supabase. I initially underestimated the time required to become familiar with these technologies and their implementation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Next Steps
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Although I completed the core functionalities, I plan to:
+- Improve the styling and responsiveness of the user interface using Tailwind CSS.
+- Enhance the error handling and edge case scenarios.
+
+## Hosting
+
+The application is hosted on [Netlify](insert your hosted URL here), where you can view the deployed version of the app.
+
+## Conclusion
+
+This project has been a valuable learning experience, and I appreciate your understanding regarding the time constraints I faced. I look forward to any feedback and suggestions for improvements.
+
+## Note
+
+Please do not share any sensitive information such as Supabase API keys or Google OAuth client secrets while reviewing this project.
+
+Thank you for your consideration!
